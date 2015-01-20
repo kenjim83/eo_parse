@@ -1,3 +1,4 @@
+import csv
 import string, os
 
 # in_folder = "C:\\Users\\miwa\\Documents\\Python\\EO_extraction\\Tri_reports\\"
@@ -14,10 +15,6 @@ import string, os
 # It will stop the code execution in the terminal window
 # wherever you put it. You can then type the variable names to 
 # see what you have access to. Type to 'quit()' to exit debugger.
-
-import csv
-
-
 
 def to_list(str):
     return filter(lambda x: x!='', str.rstrip().split(' '))
